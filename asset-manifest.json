@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/carpTravel/static/css/main.7acaea2f.css",
+    "main.js": "/carpTravel/static/js/main.07d3183d.js",
+    "index.html": "/carpTravel/index.html",
+    "main.7acaea2f.css.map": "/carpTravel/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/carpTravel/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
