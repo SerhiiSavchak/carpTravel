@@ -1,0 +1,54 @@
+@import-normalize; /* bring in normalize.css styles */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter/Inter-Thin.ttf') format('ttf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter/Inter-ExtraLight.ttf') format('ttf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter/Inter-Light.ttf') format('ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter/Inter-Regular.ttf') format('ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter/Inter-Medium.ttf') format('ttf');
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+ul,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
