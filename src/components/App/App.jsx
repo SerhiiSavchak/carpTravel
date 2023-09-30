@@ -1,5 +1,14 @@
 import './App.scss';
+import { Header } from 'components/Header/Header';
+import { Hero } from 'components/Hero/Hero';
+import { About } from 'components/About/About';
 
 export const App = () => {
-  return <div className="test">Uncover Carpathian’s Secrets</div>;
+  return (
+    <>
+      <Header />
+      <Hero />
+      <About />
+    </>
+  );
 };

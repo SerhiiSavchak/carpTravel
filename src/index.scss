@@ -1,34 +1,11 @@
 @import-normalize; /* bring in normalize.css styles */
 
-@font-face {
-  font-family: 'Inter';
-  src: url('fonts/Inter/Inter-Thin.ttf') format('ttf');
-  font-weight: 100;
-}
-@font-face {
-  font-family: 'Inter';
-  src: url('fonts/Inter/Inter-ExtraLight.ttf') format('ttf');
-  font-weight: 200;
-}
-@font-face {
-  font-family: 'Inter';
-  src: url('fonts/Inter/Inter-Light.ttf') format('ttf');
-  font-weight: 300;
-}
-@font-face {
-  font-family: 'Inter';
-  src: url('fonts/Inter/Inter-Regular.ttf') format('ttf');
-  font-weight: 400;
-}
-@font-face {
-  font-family: 'Inter';
-  src: url('fonts/Inter/Inter-Medium.ttf') format('ttf');
-  font-weight: 500;
-}
+//reset
 
 body {
   margin: 0;
-  font-family: Inter, sans-serif;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
 }
 
 h1,
@@ -37,18 +14,30 @@ h3,
 h4,
 h5,
 h6,
-p,
-div,
-ul,
-span {
+p {
   margin: 0;
-  padding: 0;
-}
-
-button {
-  cursor: pointer;
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  display: block;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

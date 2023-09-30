@@ -1,0 +1,52 @@
+.menu-wrap {
+  display: none;
+}
+
+.menu-wrap.open {
+  padding-top: 43px;
+  z-index: 999;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(1, 10, 5, 0.75);
+  backdrop-filter: blur(25px);
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.menu-btn {
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  background-color: transparent;
+  width: 52px;
+  height: 17px;
+  line-height: normal;
+  letter-spacing: 1.4px;
+  margin-bottom: 110px;
+  margin-left: auto;
+}
+.menu-nav {
+}
+.menu-list {
+  display: flex;
+  width: 90px;
+  gap: 48px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.menu-item {
+}
+.menu-link {
+  color: #fff;
+
+  font-size: 18px;
+
+  line-height: normal;
+  letter-spacing: 1.8px;
+}
