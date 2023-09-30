@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/carpTravel/static/css/main.d111c09e.css",
-    "main.js": "/carpTravel/static/js/main.a345c5e4.js",
-    "static/media/Inter-Medium.ttf": "/carpTravel/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
-    "static/media/Inter-ExtraLight.ttf": "/carpTravel/static/media/Inter-ExtraLight.fbcf1d9ad9d7bac9f6de.ttf",
-    "static/media/Inter-Thin.ttf": "/carpTravel/static/media/Inter-Thin.97a5cc3ca8d3b35a4239.ttf",
-    "static/media/Inter-Light.ttf": "/carpTravel/static/media/Inter-Light.02850f28027788580733.ttf",
-    "static/media/Inter-Regular.ttf": "/carpTravel/static/media/Inter-Regular.9ca9ba81e9dcaa12b3a1.ttf",
+    "main.css": "/carpTravel/static/css/main.f4659668.css",
+    "main.js": "/carpTravel/static/js/main.281bb009.js",
+    "static/media/bg-about-desc.jpg": "/carpTravel/static/media/bg-about-desc.347769455a72502e59d7.jpg",
+    "static/media/bg-hero-desc.jpg": "/carpTravel/static/media/bg-hero-desc.15cd23b8929cb6dada90.jpg",
+    "static/media/bg-about-tablet.jpg": "/carpTravel/static/media/bg-about-tablet.0b4720a43a77eca6ab95.jpg",
+    "static/media/bg-about-mobile.jpg": "/carpTravel/static/media/bg-about-mobile.230e7d1dfd5f6697fb3b.jpg",
+    "static/media/bg-hero-tablet.jpg": "/carpTravel/static/media/bg-hero-tablet.f4651d3fce9c9df6508b.jpg",
+    "static/media/bg-hero-mobile.jpg": "/carpTravel/static/media/bg-hero-mobile.4101157b89d9ded3bd00.jpg",
+    "static/media/logo-mobile.svg": "/carpTravel/static/media/logo-mobile.98dd725ae5dc55cc5ed4a1b1ebcc09d4.svg",
+    "static/media/sprite.svg": "/carpTravel/static/media/sprite.d33955af05818f5763b02bcd3336cd32.svg",
     "index.html": "/carpTravel/index.html",
-    "main.d111c09e.css.map": "/carpTravel/static/css/main.d111c09e.css.map",
-    "main.a345c5e4.js.map": "/carpTravel/static/js/main.a345c5e4.js.map"
+    "main.f4659668.css.map": "/carpTravel/static/css/main.f4659668.css.map",
+    "main.281bb009.js.map": "/carpTravel/static/js/main.281bb009.js.map"
   },
   "entrypoints": [
-    "static/css/main.d111c09e.css",
-    "static/js/main.a345c5e4.js"
+    "static/css/main.f4659668.css",
+    "static/js/main.281bb009.js"
   ]
 }
