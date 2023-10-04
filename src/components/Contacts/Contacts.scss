@@ -1,0 +1,129 @@
+.contacts-section {
+  display: flex;
+  padding: 56px 0 54px;
+  background: url('../../img/bg/contacts-section/bg-contacts-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media screen and (min-width: 768px) {
+    padding: 64px 0 64px;
+    background: url('../../img/bg/contacts-section/bg-contacts-tablet.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 1280px) {
+    padding: 104px 0 104px;
+    background: url('../../img/bg/contacts-section/bg-contacts-desc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+.contacts-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 140%;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.contacts-title-span {
+  font-weight: 500;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.contacts-list {
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.contacts-item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0px 20px;
+  &:nth-child(1) {
+  }
+  &:nth-child(2) {
+  }
+  &:nth-child(3) {
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.contacts-link {
+  font-size: 14px;
+  color: #fff;
+
+  line-height: 171.4%;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.contacts-subtitle {
+  color: #fff;
+  font-size: 12px;
+
+  font-weight: 100;
+  line-height: 166.6%;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.contacts-form {
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.contacts-label {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 200%;
+  letter-spacing: 2.4px;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.contacts-input {
+  color: #fff;
+  &::placeholder {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 184.6%;
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.contacts-input.textarea {
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.contacts-btn {
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}

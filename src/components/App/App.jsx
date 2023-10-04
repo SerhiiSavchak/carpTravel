@@ -5,6 +5,7 @@ import { About } from 'components/About/About';
 import { Services } from 'components/Services/Services';
 import { Career } from 'components/Career/Career';
 import { Gallery } from 'components/Gallery/Gallery';
+import { Contacts } from 'components/Contacts/Contacts';
 
 export const App = () => {
   return (
@@ -13,8 +14,9 @@ export const App = () => {
       <Hero />
       <About />
       <Services />
-      {/* <Career /> */}
+      <Career />
       <Gallery />
+      <Contacts />
     </>
   );
 };
