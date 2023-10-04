@@ -2,6 +2,8 @@
 
 <symbol id="btn-left-mob" viewBox="0 0 25 32"><path fill="#fff" style="fill:var(--color1, #fff)" d="M0 0h.576v6.641H0V0z"/><path fill="#fff" style="fill:var(--color1, #fff)" d="M0 0h25.358v.604H0V0zM0 32h.576v-6.642H0V32z"/><path fill="#fff" style="fill:var(--color1, #fff)" d="M0 32h25.358v-.604H0V32z"/></symbol>
 
+
+
 <symbol id="btn-right-mob" viewBox="0 0 25 32"><path fill="#fff" style="fill:var(--color1, #fff)" d="M25.358 0h-.576v6.641h.576V0z"/><path fill="#fff" style="fill:var(--color1, #fff)" d="M25.358 0H0v.604h25.358V0zM25.358 32h-.576v-6.642h.576V32z"/><path fill="#fff" style="fill:var(--color1, #fff)" d="M25.358 32H0v-.604h25.358V32z"/></symbol>
 
 <symbol id="hero-logo" viewBox="0 0 73 32">
