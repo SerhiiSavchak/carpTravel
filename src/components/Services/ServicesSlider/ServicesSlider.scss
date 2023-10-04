@@ -1,0 +1,28 @@
+.swiper {
+  margin: 0;
+  margin-bottom: 12px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: unset;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 607px;
+    height: 429px;
+  }
+}
+
+.swiper-img,
+.swiper {
+  width: 280px;
+  height: 213px;
+
+  @media screen and (min-width: 768px) {
+    width: 463px;
+    height: 370px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 607px;
+    height: 429px;
+  }
+}

@@ -1,0 +1,181 @@
+.career-section {
+  display: flex;
+  padding: 56px 0px 56px;
+  background: url('../../img/bg/career-section/bg-career-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media screen and (min-width: 768px) {
+    padding: 64px 0px 64px;
+    background: url('../../img/bg/career-section/bg-career-tablet.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media screen and (min-width: 1280px) {
+    padding: 104px 0px 104px;
+    background: url('../../img/bg/career-section/bg-career-desc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.career-title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 36px;
+  @media screen and (min-width: 768px) {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 24px;
+  }
+}
+
+.career-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 140%;
+  letter-spacing: -1.6px;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+    width: 368px;
+    font-size: 67px;
+    line-height: normal;
+    letter-spacing: -2.68px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 98px;
+    letter-spacing: -3.92px;
+    width: 539px;
+    margin-left: 24px;
+  }
+}
+.career-title-span {
+  font-weight: 500;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.career-top-text {
+  color: #fff;
+  width: 179px;
+  font-size: 14px;
+  margin-left: auto;
+  font-weight: 100;
+  line-height: 142.8%;
+
+  @media screen and (min-width: 768px) {
+    font-size: 13px;
+    width: 221px;
+    text-align: justify;
+    margin-left: unset;
+    line-height: 153.8%;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+    width: 293px;
+    line-height: 133.3%;
+  }
+}
+.career-subtitle {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 100;
+  width: 141px;
+  margin-left: auto;
+  margin-right: 39px;
+  margin-bottom: 36px;
+  text-transform: uppercase;
+  @media screen and (min-width: 768px) {
+    margin-left: 80px;
+    margin-right: auto;
+    margin-bottom: 56px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 36px;
+    width: 170px;
+    line-height: 108.3%;
+    margin-bottom: 45px;
+    margin-right: unset;
+  }
+}
+
+.career-main-wrap {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    gap: 24px;
+    justify-content: space-between;
+  }
+}
+.career-wrap {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media screen and (min-width: 1280px) {
+    position: relative;
+  }
+}
+
+.career-bottom-wrap {
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.career-form-wrap {
+  background: url('../../img/bg/career-section/bg-career-form-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.career-form-section {
+  padding: 56px 0px 56px;
+  background: url('../../img/bg/career-section/bg-career-form-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.career-form-text {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 142.8%;
+  width: 179px;
+  margin-left: auto;
+  margin-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    margin-left: unset;
+    margin-bottom: unset;
+    width: 221px;
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 18px;
+    line-height: 133.3%;
+    width: 234px;
+    position: absolute;
+    top: -86px;
+    left: 0;
+  }
+}

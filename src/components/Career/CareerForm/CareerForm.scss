@@ -1,0 +1,123 @@
+.career-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  @media screen and (min-width: 768px) {
+    width: 463px;
+    gap: 14px 24px;
+    height: 316px;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 604px;
+    height: 380px;
+  }
+}
+
+.career-form-top-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.career-form-label {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 200%;
+  letter-spacing: 2.4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  @media screen and (min-width: 768px) {
+    width: 221px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 290px;
+  }
+}
+
+.career-form-input {
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  height: 24px;
+  padding-left: 8px;
+  outline: none;
+  color: #fff;
+
+  &::placeholder {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 184.6%;
+    opacity: 0.2;
+  }
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.career-form-input.textarea {
+  height: 196px;
+  resize: none;
+  padding-left: unset;
+  @media screen and (min-width: 768px) {
+    width: 221px;
+    height: 228px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 292px;
+  }
+}
+
+.career-checkbox-wrap {
+  display: flex;
+  gap: 8px;
+
+  align-items: baseline;
+  @media screen and (min-width: 768px) {
+    width: 221px;
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+
+.career-checkbox-input {
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.career-checkbox-text {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 183.3%;
+  width: 250px;
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
+.career-form-btn {
+  width: 82px;
+
+  color: #fff;
+  border: none;
+  font-size: 30px;
+  background-color: transparent;
+  margin-left: auto;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 1280px) {
+    font-size: 32px;
+    width: 87px;
+  }
+}

@@ -1,17 +1,18 @@
 .about-section {
+  display: flex;
   padding: 55px 0px 54px;
-  background: url('../../img//bg/bg-about-mobile.jpg');
+  background: url('../../img//bg/about-section/bg-about-mobile.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 
   @media screen and (min-width: 768px) {
     padding: 106px 0px 104px;
-    background: url('../../img//bg/bg-about-tablet.jpg');
+    background: url('../../img//bg/about-section/bg-about-tablet.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
-  @media screen and (min-width: 1440px) {
-    background: url('../../img//bg/bg-about-desc.jpg');
+  @media screen and (min-width: 1280px) {
+    background: url('../../img/bg/about-section/bg-about-desc.jpg');
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -28,12 +29,11 @@
     height: 445px;
     margin-bottom: 64px;
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
     justify-content: unset;
     gap: 24px;
     height: 664px;
     margin-bottom: 72px;
-    margin-left: 24px;
   }
 }
 
@@ -53,7 +53,7 @@
     height: 81px;
     margin-bottom: unset;
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
     width: 606px;
     font-size: 98px;
     height: 120px;
@@ -65,7 +65,7 @@
   font-weight: 500;
   @media screen and (min-width: 768px) {
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
   }
 }
 
@@ -80,7 +80,7 @@
     margin-bottom: unset;
     margin-top: 15px;
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
     width: 292px;
     margin-top: 25px;
     gap: 24px;
@@ -96,7 +96,7 @@
 
   @media screen and (min-width: 768px) {
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
     font-size: 18px;
 
     line-height: 133.3%;
@@ -109,12 +109,12 @@
 
   @media screen and (min-width: 768px) {
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
   }
 }
 .about-br {
   display: none;
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
     display: block;
   }
 }
@@ -128,7 +128,7 @@
     position: absolute;
     bottom: 0;
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
     right: 0;
     width: 296px;
   }
@@ -143,7 +143,7 @@
 
   @media screen and (min-width: 768px) {
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
     font-size: 18px;
     width: 296px;
     line-height: 133.3%;
@@ -155,7 +155,7 @@
 
   @media screen and (min-width: 768px) {
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
     font-size: 18px;
     width: 200px;
     line-height: 133.3%;
@@ -170,7 +170,7 @@
 
   @media screen and (min-width: 768px) {
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
     font-size: 18px;
     width: 296px;
     line-height: 133.3%;
@@ -183,9 +183,9 @@
     width: 463px;
     margin-left: auto;
   }
-  @media screen and (min-width: 1440px) {
+  @media screen and (min-width: 1280px) {
     width: 605px;
-    margin-left: unset;
+    margin-left: 24px;
     margin-right: auto;
   }
 }
