@@ -41,6 +41,7 @@ export const Services = () => {
         break;
     }
   };
+
   const getCurrentTopText = step => {
     switch (step) {
       case 1:

@@ -2,6 +2,10 @@ import './Contacts.scss';
 import { Container } from 'components/Container/Container';
 
 export const Contacts = () => {
+  const onSubmit = e => {
+    e.preventDefault();
+  };
+
   return (
     <section className="contacts-section">
       <Container>
@@ -56,7 +60,7 @@ export const Contacts = () => {
             </ul>
           </div>
         </div>
-        <form className="contacts-form">
+        <form onSubmit={onSubmit} className="contacts-form">
           <label className="contacts-label">
             Full name
             <input

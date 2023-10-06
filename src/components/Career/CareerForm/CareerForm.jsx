@@ -1,8 +1,12 @@
 import './CareerForm.scss';
 
 export const CareerForm = ({ tablet }) => {
+  const onSubmit = e => {
+    e.preventDefault();
+  };
+
   return (
-    <form className="career-form">
+    <form onSubmit={onSubmit} className="career-form">
       <label className="career-form-label">
         Full name
         <input
