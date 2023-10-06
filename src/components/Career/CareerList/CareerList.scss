@@ -4,7 +4,7 @@
   flex-direction: column;
   width: 181px;
   @media screen and (min-width: 768px) {
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 24px;
     width: 221px;
   }

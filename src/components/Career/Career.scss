@@ -52,7 +52,6 @@
     font-size: 98px;
     letter-spacing: -3.92px;
     width: 539px;
-    margin-left: 24px;
   }
 }
 .career-title-span {
@@ -113,8 +112,8 @@
   }
 
   @media screen and (min-width: 1280px) {
-    gap: 24px;
-    justify-content: space-between;
+    gap: 15px;
+    justify-content: flex-end;
   }
 }
 .career-wrap {
@@ -122,6 +121,7 @@
   @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: column;
+    gap: 32px;
   }
   @media screen and (min-width: 1280px) {
     position: relative;

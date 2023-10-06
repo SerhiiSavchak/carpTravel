@@ -57,31 +57,31 @@ export const Contacts = () => {
           </div>
         </div>
         <form className="contacts-form">
-          <div className="contacts-form-wrap">
-            <label className="contacts-label">
-              Full name
-              <input
-                type="text"
-                placeholder="John Smith"
-                className="contacts-input"
-              />
-            </label>
-            <label className="contacts-label">
-              E-mail
-              <input
-                type="email"
-                placeholder="johnsmith@email.com"
-                className="contacts-input"
-              />
-            </label>
+          <label className="contacts-label">
+            Full name
+            <input
+              type="text"
+              placeholder="John Smith"
+              className="contacts-input"
+            />
+          </label>
+          <label className="contacts-label">
+            E-mail
+            <input
+              type="email"
+              placeholder="johnsmith@email.com"
+              className="contacts-input"
+            />
+          </label>
+          <div className="contacts-btn-wrap ">
             <label className="contacts-label textarea">
               Message
               <textarea className="contacts-input textarea" />
             </label>
+            <button className="contacts-btn" type="submit">
+              send
+            </button>
           </div>
-          <button className="contacts-btn" type="submit">
-            send
-          </button>
         </form>
       </Container>
     </section>
