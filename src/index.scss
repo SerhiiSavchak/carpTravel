@@ -10,21 +10,21 @@ body {
 body::after {
   position: absolute;
   z-index: -1;
-  content: url(img/bg/services-section/bg-services-1-mobile.webp),
-    url(img/bg/services-section/bg-services-1-tablet.webp),
-    url(img/bg/services-section/bg-services-1-desc.webp),
-    url(img/bg/services-section/bg-services-2-mobile.webp),
-    url(img/bg/services-section/bg-services-2-tablet.webp),
-    url(img/bg/services-section/bg-services-2-desc.webp),
-    url(img/bg/services-section/bg-services-3-mobile.webp),
-    url(img/bg/services-section/bg-services-3-tablet.webp),
-    url(img/bg/services-section/bg-services-3-desc.webp),
-    url(img/bg/services-section/bg-services-4-mobile.webp)
-      url(img/bg/services-section/bg-services-4-tablet.webp),
-    url(img/bg/services-section/bg-services-4-desc.webp),
-    url(img/bg/services-section/bg-services-5-mobile.webp),
-    url(img/bg/services-section/bg-services-5-tablet.webp),
-    url(img/bg/services-section/bg-services-5-desc.webp);
+  content: url('img/bg/services-section/bg-services-1-mobile.webp'),
+    url('img/bg/services-section/bg-services-1-tablet.webp'),
+    url('img/bg/services-section/bg-services-1-desc.webp'),
+    url('img/bg/services-section/bg-services-2-mobile.webp'),
+    url('img/bg/services-section/bg-services-2-tablet.webp'),
+    url('img/bg/services-section/bg-services-2-desc.webp'),
+    url('img/bg/services-section/bg-services-3-mobile.webp'),
+    url('img/bg/services-section/bg-services-3-tablet.webp'),
+    url('img/bg/services-section/bg-services-3-desc.webp'),
+    url('img/bg/services-section/bg-services-4-mobile.webp')
+      url('img/bg/services-section/bg-services-4-tablet.webp'),
+    url('img/bg/services-section/bg-services-4-desc.webp'),
+    url('img/bg/services-section/bg-services-5-mobile.webp'),
+    url('img/bg/services-section/bg-services-5-tablet.webp'),
+    url('img/bg/services-section/bg-services-5-desc.webp');
 }
 
 h1,
