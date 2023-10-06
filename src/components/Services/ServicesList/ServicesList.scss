@@ -5,54 +5,43 @@
   @media screen and (min-width: 768px) {
     order: -1;
   }
-
   @media screen and (min-width: 1280px) {
     gap: 24px;
   }
 }
+
 .services-list.first {
   margin-bottom: 34px;
   @media screen and (min-width: 768px) {
     margin-bottom: 83px;
   }
-
-  @media screen and (min-width: 1280px) {
-  }
 }
+
 .services-list.second {
   margin-bottom: 74px;
   @media screen and (min-width: 768px) {
     margin-bottom: 103px;
   }
-
-  @media screen and (min-width: 1280px) {
-  }
 }
+
 .services-list.third {
   margin-bottom: 74px;
   @media screen and (min-width: 768px) {
     margin-bottom: 103px;
   }
-
-  @media screen and (min-width: 1280px) {
-  }
 }
+
 .services-list.fourth {
   margin-bottom: 54px;
   @media screen and (min-width: 768px) {
     margin-bottom: 83px;
   }
-
-  @media screen and (min-width: 1280px) {
-  }
 }
+
 .services-list.fifth {
   margin-bottom: 34px;
   @media screen and (min-width: 768px) {
     margin-bottom: 83px;
-  }
-
-  @media screen and (min-width: 1280px) {
   }
 }
 
@@ -60,25 +49,23 @@
   position: relative;
   cursor: pointer;
 }
+
 .services-text {
   color: #fff;
   font-size: 20px;
   font-weight: 100;
   line-height: 85%;
   text-transform: uppercase;
-
   @media screen and (min-width: 768px) {
     font-size: 22px;
-
     line-height: 81.8%;
   }
-
   @media screen and (min-width: 1280px) {
     font-size: 28px;
-
     line-height: 85.7%;
   }
 }
+
 .services-text.current {
   font-weight: 500;
   transform: translateX(16px);
@@ -94,7 +81,6 @@
   height: 8px;
   left: -16px;
   top: 4px;
-
   @media screen and (min-width: 1280px) {
     top: 7px;
   }

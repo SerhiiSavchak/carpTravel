@@ -1,6 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
-
 import 'swiper/scss';
 import 'swiper/scss/navigation';
 import './GallerySlider.scss';

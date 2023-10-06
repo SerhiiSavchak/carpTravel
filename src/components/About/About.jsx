@@ -10,10 +10,10 @@ export const About = () => {
           </h2>
           <div className="about-top-wrap">
             <p className="about-top-text">
-              <span className="about-top-text-span">a team of enthusiasts</span>{' '}
+              <span className="about-top-text-span">a team of enthusiasts</span>
               who are fully committed to the mission of creating unforgettable
               and extraordinary trips to the most beautiful parts of the
-              Carpathians. Our goal is not just to show you{' '}
+              Carpathians. Our goal is not just to show you
               <br className="about-br" /> the natural wonders of the mountains,
               but to provide you with a deep immersion in their magical
               atmosphere.

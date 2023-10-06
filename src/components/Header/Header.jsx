@@ -1,7 +1,6 @@
 import './Header.scss';
 import logo from '../../img/logo-mobile.svg';
 import { useState } from 'react';
-
 import { Container } from 'components/Container/Container';
 import { Menu } from './Menu/Menu';
 
