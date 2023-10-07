@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/carpTravel/static/css/main.840d7fa1.css",
-    "main.js": "/carpTravel/static/js/main.205498d7.js",
+    "main.css": "/carpTravel/static/css/main.4fa1edaa.css",
+    "main.js": "/carpTravel/static/js/main.cb60f89b.js",
     "static/media/bg-about-desc.jpg": "/carpTravel/static/media/bg-about-desc.347769455a72502e59d7.jpg",
     "static/media/bg-hero-desc.jpg": "/carpTravel/static/media/bg-hero-desc.15cd23b8929cb6dada90.jpg",
     "static/media/services-3-desc.jpg": "/carpTravel/static/media/services-3-desc.7b02288d76fa603fec43.jpg",
@@ -58,11 +58,11 @@
     "static/media/sprite.svg": "/carpTravel/static/media/sprite.ee9eaed3a8fdc0aa11239b03ab362f7e.svg",
     "index.html": "/carpTravel/index.html",
     "static/media/services-dot.svg": "/carpTravel/static/media/services-dot.7e6e6a15583877c88e6a.svg",
-    "main.840d7fa1.css.map": "/carpTravel/static/css/main.840d7fa1.css.map",
-    "main.205498d7.js.map": "/carpTravel/static/js/main.205498d7.js.map"
+    "main.4fa1edaa.css.map": "/carpTravel/static/css/main.4fa1edaa.css.map",
+    "main.cb60f89b.js.map": "/carpTravel/static/js/main.cb60f89b.js.map"
   },
   "entrypoints": [
-    "static/css/main.840d7fa1.css",
-    "static/js/main.205498d7.js"
+    "static/css/main.4fa1edaa.css",
+    "static/js/main.cb60f89b.js"
   ]
 }
