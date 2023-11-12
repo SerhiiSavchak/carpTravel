@@ -6,13 +6,13 @@ A website of a company providing active recreation services in the Carpathians. 
 
 npm install
 
-npm run dev
+npm start
 
 ## Links
 
-Github repository - https://github.com/SerhiiSavchak/phonebook
+Github repository - https://github.com/SerhiiSavchak/carpTravel
 
-Live page - https://serhiisavchak.github.io/phonebook
+Live page - https://serhiisavchak.github.io/carpTravel
 
 ## Contacts
 
